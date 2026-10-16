@@ -5,7 +5,6 @@ import {
   deleteStudent,
   filterStudents,
   generateStudentId,
-  getInitials,
   getStudentStats,
   isFormValid,
   normaliseStudent,
@@ -124,9 +123,5 @@ describe('display helpers', () => {
   it('calculates statistics', () => {
     expect(getStudentStats(sample)).toEqual({ total: 2, enrolled: 1, notEnrolled: 1, averageAge: 20 });
     expect(getStudentStats([])).toEqual({ total: 0, enrolled: 0, notEnrolled: 0, averageAge: 0 });
-  });
-
-  it('builds initials', () => {
-    expect(getInitials('Thabo Mokoena')).toBe('TM');
   });
 });

@@ -237,12 +237,3 @@ export function getStudentStats(students) {
 
 /** Turns the isEnrolled boolean into readable text. */
 export const formatStatus = (isEnrolled) => (isEnrolled ? 'Enrolled' : 'Not enrolled');
-
-/** Returns initials for the avatar circle, e.g. "Thabo Mokoena" -> "TM". */
-export const getInitials = (fullName) =>
-  fullName
-    .split(' ')
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0].toUpperCase())
-    .join('');

@@ -1,5 +1,4 @@
 import StatusBadge from './StatusBadge.jsx';
-import { getInitials } from '../utils/studentUtils.js';
 
 /**
  * StudentRow – one row of the dashboard table.
@@ -18,12 +17,7 @@ function StudentRow({ student, onEdit, onDelete }) {
         {student.id}
       </td>
       <td data-label="Name">
-        <div className="name-cell">
-          <span className="avatar" aria-hidden="true">
-            {getInitials(student.fullName)}
-          </span>
-          <span className="name-cell__name">{student.fullName}</span>
-        </div>
+        <span className="name-cell__name">{student.fullName}</span>
       </td>
       <td data-label="Age">{student.age}</td>
       <td data-label="Email" className="cell-email">
