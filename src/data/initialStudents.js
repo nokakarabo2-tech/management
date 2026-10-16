@@ -15,7 +15,7 @@
  */
 const INITIAL_STUDENTS = [
   {
-    id: 'STU001',
+    id: 'STU202610',
     fullName: 'Thato Motlakase',
     age: 21,
     email: 'thabo.mokoena@gmail.com',
@@ -23,7 +23,7 @@ const INITIAL_STUDENTS = [
     isEnrolled: true,
   },
   {
-    id: 'STU002',
+    id: 'STU202611',
     fullName: 'Lerato Molapo',
     age: 19,
     email: 'lerato.molapo@gmail.com',
@@ -31,7 +31,7 @@ const INITIAL_STUDENTS = [
     isEnrolled: true,
   },
   {
-    id: 'STU003',
+    id: 'STU202612',
     fullName: 'Tumelo Ramakatsa',
     age: 24,
     email: 'tumelo.ramakatsa@gmail.com',
@@ -39,7 +39,7 @@ const INITIAL_STUDENTS = [
     isEnrolled: false,
   },
   {
-    id: 'STU004',
+    id: 'STU202613',
     fullName: 'Palesa Nthunya',
     age: 20,
     email: 'palesa.nthunya@gmail.com',
@@ -47,7 +47,7 @@ const INITIAL_STUDENTS = [
     isEnrolled: true,
   },
   {
-    id: 'STU005',
+    id: 'STU202614',
     fullName: 'Mpho Letsie',
     age: 22,
     email: 'mpho.letsie@gmail.com',
